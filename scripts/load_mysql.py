@@ -1,7 +1,6 @@
 import pandas as pd
 from modules.db import get_connection, create_table
 
-# Create table automatically
 create_table()
 
 conn = get_connection()
